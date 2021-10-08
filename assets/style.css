@@ -22,6 +22,7 @@ h1 { text-align: center;}
     position: relative;
     margin-top: 5px;
     margin-left: 100px;
+    border-style: solid;
    /* needs to have a thin and black border, to the right of search bar  */
     
 
