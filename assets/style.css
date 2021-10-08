@@ -13,14 +13,22 @@ h1 { text-align: center;}
 .search {
     position: relative 40px 40px;
     
+    
 }
 
 /* results section */
 
 .results {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 100px;
 
 }
 
 /* 5 day forecast section */
 
-.5day
+.forecast {
+    position: absolute;
+    margin-top: 10 px;
+    margin-left: 100px;
+}
