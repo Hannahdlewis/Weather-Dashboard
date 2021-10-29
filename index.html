@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- materalize css -->
+    <!-- bootstrap css -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- internal css -->
 
     <link rel="stylesheet" href="assets/style.css">
+
+    <!-- Open weathermap API -->
+
+
+https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
 
     
     <title>Weather Dashboard</title>
@@ -26,6 +31,7 @@
 </header>
 <body>
 <!-- side serch bar -->
+<!-- search for a city title, input feature and button -->
     <div class="search">
         <label for="city-search">Search for a City:</label>
         <input type="search" id="city-search" name="q" area-label="Search for city">
@@ -38,7 +44,8 @@
 <!-- centered results from search -->
 
     <div class="results">
-       <h2> this is going to be centered right from search bar</h2>
+        
+       <p> this is the top results container</p>
 
     </div>
    
@@ -46,7 +53,25 @@
 
     <div class="forecast">
 
-        <h2> this is going to be the 5 day forecast below the results from search bar </h2>
+        <div class="fiveDayForecast">
+            <p>this is Day 1 forecast</p>
+        </div>
+
+        <div class="fiveDayForecast">
+            <p>this is Day 2 forecast</p>
+        </div>
+
+        <div class="fiveDayForecast">
+            <p>this is Day 3 forecast</p>
+        </div>
+
+        <div class="fiveDayForecast">
+            <p>this is Day 4 forecast</p>
+        </div>
+            
+        <div class="fiveDayForecast">
+            <p>this is Day 5 forecast</p>
+        </div>
 
     </div>
 
@@ -56,7 +81,7 @@
     <!-- internal js -->
 
     <script src="assets/script.js"></script>
-    
+
 </body>
 
 </html>

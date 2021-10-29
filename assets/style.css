@@ -6,11 +6,15 @@ h1 { text-align: center;}
     background-image: linear-gradient(to right, #80aaff, #19194d);
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 /* side search bar */
 
-.search {
+.searchBar {
+    float: left;
+    position: absolute;
     /* position: relative 40px 40px; */
     padding: 0 0 ;
     
