@@ -3,3 +3,7 @@
 
 //  open weather app api key
 var APIKey = "cba46dfc15191b6f1973200fce8ae64b";
+
+// search by city name calling Api
+
+var cityName;
