@@ -10,4 +10,7 @@ var cityName;
 
 // calling the API using the city name
 
-api.openweathermap.org/data/2.5/weather?q={city name}&appid={APIKey};
+api.openweathermap.org/data/2.5/weather?q={city name}&appid={cba46dfc15191b6f1973200fce8ae64b;
+
+
+var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + cba46dfc15191b6f1973200fce8ae64b;
